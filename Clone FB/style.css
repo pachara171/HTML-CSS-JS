@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sarabun', sans-serif;
+}
+.content {
+    margin: 0 auto;
+    background: #f0f2f5;
+}
+.block {
+    display: flex;
+    justify-content: center;
+    padding: 10% 0%;
+}
+a {
+    text-decoration: none;
+}
+
+/* class intro */
+.intro .logo-fb {
+    width: 80%;
+    position: relative;
+    top: 5%;
+}
+.intro img {
+    position: relative;
+    right: 10%;
+}
+.intro h2 {
+    font-size: 26px;
+    width: auto;
+}
+
+/* class login */
+.login {
+    margin: 0% 5%;
+}
+.login .form, .create-page {
+    background: #ffff;
+    width: 140%;
+    padding: 5%;
+    border-radius: 10px;
+    display: block;
+}
+.login form div {
+    margin-bottom: 3%;
+}
+.login form input {
+    border-radius: 5px;
+    width: 100%;
+    font-size: 28px;
+    padding: 2% 5%;
+    border: 1px solid #d9d9d9;
+    background: #e8f0fe;
+
+}
+.btn-login button {
+    width: 100%;
+    background: #166FE5;
+    padding: 2% 0%;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+}
+.btn-login h3 {
+    color: #ffff;
+    font-size: 22px;
+}
+.forget-pass a {
+    text-align: center;
+    color: #166FE5;
+    font-weight: bolder;
+    font-size: 14px;
+}
+.hr hr {
+    margin: 7% 0%;
+}
+.new-register {
+    display: flex;
+    justify-content: center;
+}
+.new-register button {
+    background: rgb(33, 192, 1);
+    color: #ffff;
+    border: none;
+    font-size: 18px;
+    padding: 3%;
+    border-radius: 5px;
+}
+.create-page {
+    margin-top: 5%;
+    background: #f0f2f5;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.create-page h3 {
+    font-size: 18px;
+    font-weight: 650;
+}
+.create-page a {
+    color: black;
+}
+
+footer{
+    width: auto;
+    height: 10rem;
+    background: #ffff;
+}
